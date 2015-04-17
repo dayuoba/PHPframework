@@ -1,0 +1,1 @@
+$("#canvas").css("background","#aaa");

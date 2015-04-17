@@ -1,0 +1,9 @@
+<?php 
+if($GLOBALS['TEMP']==="default"){
+	include(__VIEWS__."default.php");
+}else{
+	include(__VIEWS__."header.php");
+	include(__VIEWS__.$GLOBALS['TEMP']);
+	include(__VIEWS__."footer.php");
+}
+?>

@@ -1,0 +1,41 @@
+#containner{
+	height: auto;
+	min-height: 100%;
+}
+.works {
+	width: 850px;
+	margin: 0 auto;
+	margin-top: 50px; 
+}
+.works table{
+	width: 850px;
+	border: none;
+}
+.opus tr {
+	width: 850px;
+	height: 150px;
+}
+.works tr td{
+	width: 240px;
+	height: 150px;
+	background: #eee;
+	padding: 0;
+	-webkit-box-shadow: 0 1px 2px 0 #aaa;
+	-moz-box-shadow: 0 1px 2px 0 #aaa;
+	box-shadow: 0 1px 2px 0 #aaa;
+}
+.works td img {
+	height: 120px;
+	width: 240px;
+	display: block;
+}
+.works td div{
+	width: 240px;
+	height: 30px;
+	display: block;
+	text-align: center;
+	font-size: 12px;
+	line-height: 30px;
+	color: #aaa;
+}
+	
